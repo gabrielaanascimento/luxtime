@@ -1,0 +1,123 @@
+
+:root {
+  --cor1: #566479;
+  --cor2: #475569;
+  --cor3: #374659;
+  --cor4: #283648;
+  --cor5: #182738;
+  --fonte-titulo: 'Playfair Display', serif;
+  --fonte-texto: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte-texto);
+  background-color: #f2f2f2;
+  color: #fff;
+}
+
+header {
+  background-color: var(--cor4);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header form {
+  display: flex;
+  gap: 10px;
+}
+
+header input[type="text"] {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+header input[type="submit"] {
+  background-color: var(--cor2);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav input[type="submit"]:hover {
+  background-color: var(--cor1);
+}
+
+.main {
+  padding: 30px;
+  background-color: var(--cor3);
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: var(--fonte-titulo);
+}
+
+.table_adm {
+  width: 100%;
+  background-color: #475569;
+  color: #000;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table_adm th, .table_adm td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+input[type="submit"].cadastrar {
+  background-color: var(--cor2);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"].cadastrar:hover {
+  background-color: var(--cor1);
+}
+
+a img {
+  vertical-align: middle;
+}
+
+footer {
+  background-color: var(--cor5);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}

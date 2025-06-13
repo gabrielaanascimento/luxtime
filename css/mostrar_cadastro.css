@@ -1,0 +1,103 @@
+:root {
+  --cor1: #566479;
+  --cor2: #475569;
+  --cor3: #374659;
+  --cor4: #283648;
+  --cor5: #182738;
+  --fonte-titulo: 'Playfair Display', serif;
+  --fonte-texto: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte-texto);
+  background-color: #f2f2f2;
+  color: #fff;
+}
+
+header {
+  background-color: var(--cor4);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main.main {
+  padding: 30px;
+  background-color: var(--cor3);
+  min-height: 80vh;
+}
+
+h2 {
+  font-family: var(--fonte-titulo);
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: var(--cor1);
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.sucesso {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.botoes {
+  margin-top: 30px;
+}
+
+.botoes form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.botoes input[type="submit"] {
+  background-color: var(--cor2);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botoes input[type="submit"]:hover {
+  background-color: var(--cor1);
+}
+
+footer {
+  background-color: var(--cor5);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
